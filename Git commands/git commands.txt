@@ -6,6 +6,8 @@ git config -- global user.email "princ4c@gmail.com"
 git config -- global color.ui "auto "
 git config -- global core.editor "notepad"
 
+git config --list
+
 git status
 git add
 git add -A	// adding everything
@@ -27,6 +29,3 @@ git merge --no-ff second-branch	//first, you must go to master (git checkout mas
 git merge second-branch		//dont`t use... it`s fast-forward
 
 
-
-https://github.com/AlexNikolich/salce/
-https://github.com/princ4c/salce.git
