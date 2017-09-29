@@ -1,0 +1,32 @@
+git help
+git init
+
+git config -- global user.name "Aleksandar Nikolic"
+git config -- global user.email "princ4c@gmail.com"
+git config -- global color.ui "auto "
+git config -- global core.editor "notepad"
+
+git status
+git add
+git add -A	// adding everything
+git commit -m " First draft introduction and code "
+
+git remote add origin https://my.page		
+git remote set-url origin https://my.page	// replace origin with new one
+git remote add upstream				// add upstream
+git remote -v					// shows all ORIGINS and UPSTREAMS
+
+git clone https ://my.page
+git push origin master
+git pull origin master
+
+git log --all --graph --decorate --oneline
+git branch <branch-name>
+git checkout second-branch	// make this branch ACTIVE
+git merge --no-ff second-branch	//first, you must go to master (git checkout master)
+git merge second-branch		//dont`t use... it`s fast-forward
+
+
+
+https://github.com/AlexNikolich/salce/
+https://github.com/princ4c/salce.git
