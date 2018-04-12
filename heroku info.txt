@@ -3,7 +3,7 @@ https://liman-book.herokuapp.com/
 LINK:
 https://www.youtube.com/watch?v=7RHYDNSRSOs
 
-1. Download Heroku CLI: https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku
+1. Download Heroku CLI: https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku AND INSTALL
 2. Commands:
 >>	heroku login
 >>	git init
@@ -12,6 +12,7 @@ https://www.youtube.com/watch?v=7RHYDNSRSOs
 >>	heroku create <app-name>
 >>	git push heroku master
 >>	heroku open
+>> 	to clone exist app | heroku git:clone -a myapp
 
 ------> Now the website should work if you do not have any databases in it
 ------> To Enably MySQL Database: (This adds Postgres database addon)
